@@ -1,0 +1,1 @@
+source: https://finance.yahoo.com/quote/NTDOY?p=NTDOY
