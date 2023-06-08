@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nintendo Stock Price</title>
+  <style>
+    rect {
+      pointer-events: all;
+      fill-opacity: 0;
+      stroke-opacity: 0;
+      z-index: 1;
+    }
+
+    .tooltip {
+    position: absolute;
+    padding: 5px;
+    background-color: rgb(11, 40, 65);
+    color: white;
+    border: 0px solid white;
+    border-radius: 0px;
+    display: none;
+    opacity: .75;
+    font-size: 14px;
+  }
+
+  .tooltip-line {
+  stroke-opacity: 0.5;
+} 
+  </style>
+ </head>
+
+<body>
+
+  <div id="chart-container"></div>
+ 
+  <!-- Include the D3.js library -->
+  
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  
+  <!-- Include your custom script file -->
+  <script src="scriptvideo2.js"></script>
+</body>
+
+</html>
